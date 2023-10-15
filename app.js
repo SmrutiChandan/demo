@@ -6,9 +6,9 @@ const port = 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello, World!\n');
+  res.end('Hello, Cisco team, Demo of test job successful.Now please ask your queries now!\n');
 });
 
 server.listen(port, hostname, () => {
-  console.log(`Welcome Team Cisco. Demo deployment is successful & Server running at http://${hostname}:${port}/`);
+  console.log(`log`);
 });
